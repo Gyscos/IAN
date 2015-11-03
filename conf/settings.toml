@@ -1,0 +1,15 @@
+screen_size = [1920, 1080]
+full_screen = true
+
+[input]
+full_screen = "F11"
+
+[[input.players]]
+movement_x = ["KEY_97", "KEY_100"]
+movement_y = ["KEY_119", "KEY_115"]
+fire = "space"
+
+[[input.players]]
+movement_x = ["JOY_0_Axis_0"]
+movement_y = ["JOY_0_Axis_1"]
+fire = "JOY_0_Button_0"

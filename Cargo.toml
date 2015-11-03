@@ -1,0 +1,17 @@
+[package]
+name = "ian"
+version = "0.1.0"
+authors = ["Alexandre Bury <alexandre.bury@gmail.com>"]
+
+[[bin]]
+name = "ian"
+
+
+[dependencies]
+piston_window = "0.24.0"
+pistoncore-sdl2_window = "0.16.0"
+eventual = "0.1.4"
+time = "0.1"
+toml = "0.1"
+xdg-basedir = "0.2"
+flate2 = "0.2"
